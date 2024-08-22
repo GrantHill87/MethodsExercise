@@ -1,0 +1,22 @@
+//3D Model Toilet Definitions
+Model DL3DToiletCeramic
+{
+	Path "Models/Bathroom (3D)"//Path is in the models folder.
+	Model 0 "DL3DToiletCeramic.obj"//Model is in the format of .obj, inside of the model folder.
+	Skin 0 "DL3DToiletCeramicSkin.png"//Skin is in the format of .png inside of the model folder.
+	Scale 1.0 1.0 1.0//X Scale, Y Scale, Z Scale.
+	USEACTORPITCH//Allows user to control the angle of the model inside of an editor like Doom Builder.
+	USEACTORROLL//Allows user to control the roll of the model inside of an editor like Doom Builder.
+	FrameIndex TO01 A 0 0//This describes the model sprite name, in a similar sense to how sprite graphics are defined in DECORATE for 2D sprites. 'A' is this model's only
+}//frame, and the two other numbers here could be potential reflections of the model if it had additional animation.
+//3D Model Urinal Definitions
+Model DL3DUrinalCeramic
+{
+	Path "Models/Bathroom (3D)"
+	Model 0 "DL3DUrinalCeramic.obj"
+	Skin 0 "DL3DUrinalCeramicSkin.png"
+	Scale 1.0 1.0 1.0
+	USEACTORPITCH
+	USEACTORROLL
+	FrameIndex URCE A 0 0
+}
