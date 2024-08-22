@@ -1,0 +1,31 @@
+AGH - Modeldef Sample # 01 (Main Model Definition Scripting Hub)
+
+//The following is a sample of my script I wrote for a coding language (Modeldef) developed by some members of an online community designed to expand upon the three dimensional objects platform used to define their dimensions and instruction, for an old video game called, Doom (1993).
+//I utilized this language to define and write my own code for a custom game I've been developing, using a similar engine to one developed for this older game, since the source code for the original game was released long ago.
+//The scripts I've written are in addition to the pre-existing source code, but both work very well together, as I've had to constantly debug my own code blocks, and there are other developers who have worked to expand the capacity of this coding language.
+
+//Created by A. Grant Hill
+
+/*Title of my project is called, Doomed Legends, but everything that's been written in this sample is actually for a spin-off project of my main one....
+/*Anything that doesn't make sense to you, feel free to message me, or refer to online archives associated with this coding platform.
+/*A demo version of this lesser project will eventually be released for public access, detailing a brief description of what the project consists of, and what's needed to run it.
+
+//3D Model Definitions
+//Golem Models
+#Include "ModelDefinitions/DLGolemModels/MODELDEF.txt"
+//Tree Models
+#Include "ModelDefinitions/DLTreeModels/MODELDEF.txt"
+//Dead Tree Models
+#Include "ModelDefinitions/DLDeadTreeModels/MODELDEF.txt"
+//Shrub Models
+#Include "ModelDefinitions/DLShrubModels/MODELDEF.txt"
+//Dead Shrub Models
+#Include "ModelDefinitions/DLDeadShrubModels/MODELDEF.txt"
+//Crate + Box Models
+#Include "ModelDefinitions/DLCrate+BoxModels/MODELDEF.txt"
+//Bathroom Models
+#Include "ModelDefinitions/DLBathroomModels/MODELDEF.txt"
+//Light Models
+#Include "ModelDefinitions/DLLightModels/MODELDEF.txt"
+//Sphere Models
+#Include "ModelDefinitions/DLSphereModels/MODELDEF.txt"
